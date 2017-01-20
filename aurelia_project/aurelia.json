@@ -130,6 +130,11 @@
             "path": "../node_modules/aurelia-testing/dist/amd",
             "main": "aurelia-testing",
             "env": "dev"
+          },
+          {
+            "name": "typescript-collections",
+            "path": "../node_modules/typescript-collections/dist/lib",
+            "main": "index"
           }
         ]
       }

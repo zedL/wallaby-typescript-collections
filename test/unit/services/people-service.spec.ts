@@ -19,9 +19,9 @@ describe('runtime context', () => {
   describe('call add', () => {
 
     it('should ', () => {
-      sut.addPerson(new Person('john', 34));
-      sut.addPerson(new Person('nina', 27));
-      expect((<any>sut).people.length).toBe(2);
+      sut.addPerson(new Person('1', 'john', 34));
+      sut.addPerson(new Person('2', 'nina', 27));
+      expect((<any>sut).people.keys().length).toBe(2);
     });
   })
 
